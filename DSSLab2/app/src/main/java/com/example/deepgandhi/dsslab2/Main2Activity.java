@@ -23,11 +23,11 @@ public class Main2Activity extends AppCompatActivity {
 
         listView = findViewById(R.id.listView);
 
-        list.add(new User("deep","201812019"));
-        list.add(new User("disha","201812120"));
-        list.add(new User("laleet","201812087"));
-        list.add(new User("parita","201812051"));
-        list.add(new User("jinal","201812019"));
+        list.add(new User("user1","1234566"));
+        list.add(new User("user2","324456"));
+        list.add(new User("user3","74546346"));
+        list.add(new User("user4","51364656"));
+        list.add(new User("user5","3523535"));
 
         ListAdapterCustom listAdapterCustom = new ListAdapterCustom(Main2Activity.this,list);
 
